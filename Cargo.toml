@@ -1,0 +1,20 @@
+[package]
+name = "sucks5"
+version = "0.1.0"
+edition = "2021"
+description = "A SOCKS proxy client implementation in Rust for everyone, because all others suck."
+authors = ["Malachi Xu <w568w@outlook.com>"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+debug = "line-tables-only"
+
+[dependencies]
+fast-socks5 = "*"
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+mimalloc = "*"
+color-print = "*"
