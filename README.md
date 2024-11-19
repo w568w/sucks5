@@ -11,6 +11,7 @@ Sucks5 is a simple, lightweight proxy client for SOCKS protocol in Rust. It is m
 - Supports SOCKS4, SOCKS4a and SOCKS5 protocols (optional authentication).
 - Seamless integration with `ssh` command.
 - Supports all major platforms that Rust supports: Windows, macOS, Linux, Android, iOS, and more (you name it).
+- Fully static-linked binaries for easy deployment.
 
 ## Installation
 ### From Source
@@ -19,7 +20,7 @@ Sucks5 is a simple, lightweight proxy client for SOCKS protocol in Rust. It is m
 2. Run `cargo install --git https://github.com/w568w/sucks5`.
 
 ### Pre-built Binaries
-Pre-built binaries are available on the [Releases](https://github.com/w568w/sucks5/releases) page. Only Windows binaries are provided for now. If you need binaries for other platforms, please build from source.
+Pre-built binaries are available on the [Releases](https://github.com/w568w/sucks5/releases) page. Only Windows and Linux binaries are provided for now. If you need binaries for other platforms, please build from source.
 
 ## Usage
 Too simple to be explained. Just run `sucks5` and look at the help message.
@@ -46,6 +47,7 @@ Sucks5 是一个简单、轻量的 Rust 实现的 SOCKS 协议代理客户端。
 - 支持 SOCKS4、SOCKS4a 和 SOCKS5 协议。
 - 与 `ssh` 命令无缝集成。
 - 支持 Rust 支持的所有主流平台：Windows、macOS、Linux、Android、iOS 等等（你说了算）。
+- 为了方便部署，提供了完全静态链接的二进制文件。
 
 ## 安装
 ### 从源码安装
@@ -53,7 +55,7 @@ Sucks5 是一个简单、轻量的 Rust 实现的 SOCKS 协议代理客户端。
 2. 运行 `cargo install --git https://github.com/w568w/sucks5`。
 
 ### 预编译二进制文件
-预编译二进制文件可以在 [Releases](https://github.com/w568w/sucks5/releases) 页面找到。目前只提供了 Windows 平台的二进制文件。如果你需要其他平台的二进制文件，请自行编译。
+预编译二进制文件可以在 [Releases](https://github.com/w568w/sucks5/releases) 页面找到。目前只提供了 Windows 和 Linux 平台的二进制文件。如果你需要其他平台的二进制文件，请自行编译。
 
 ## 使用
 太简单了，不用解释。只需运行 `sucks5`，然后查看帮助信息你就知道了。
